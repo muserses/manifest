@@ -3,13 +3,13 @@
   <remote name="origin" fetch="ssh://git@github.com/" />
   <default revision="master" remote="origin" />
 
-  <project path="lib/plist-lib"
-           name="keiji/AndroidPListLib.git" remote="origin" />
+  <project path="repo_training/module"
+           name="muserses/module.git" remote="origin" />
 
-  <project path="lib/json-pull-parser"
-           name="vvakame/JsonPullParser.git" remote="origin" />
+  <project path="repo_training/application"
+           name="muserses/application.git" remote="origin" />
 
-  <project path="apps/twicca_megane_plugin"
-           name="zaki50/TwiccaMeganePlugin.git" remote="origin" />
+  <project path="repo_training/tool"
+           name="muserses/tool.git" remote="origin" />
 
 </manifest>
