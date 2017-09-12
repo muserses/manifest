@@ -3,13 +3,13 @@
   <remote name="origin" fetch="ssh://git@github.com/" />
   <default revision="master" remote="origin" />
 
-  <project path="repo_training/module"
+  <project path="./module"
            name="muserses/module.git" remote="origin" />
 
-  <project path="repo_training/application"
+  <project path="./application"
            name="muserses/application.git" remote="origin" />
 
-  <project path="repo_training/tool"
+  <project path="./tool"
            name="muserses/tool.git" remote="origin" />
 
 </manifest>
