@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="origin" fetch="ssh://git@github.com/" />
-  <default revision="master" remote="origin" />
+  <default revision="master" remote="origin" sync-j="4" />
 
   <project path="repo_training/module"
            name="muserses/module.git" remote="origin" />
