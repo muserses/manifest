@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="origin" fetch="ssh://git@github.com/" />
+  <remote name="origin" fetch="ssh://git@github.com/muserses" />
   <default revision="master" remote="origin" sync-j="4" />
 
-  <project path="repo_training/module"
-           name="muserses/module.git" remote="origin" />
+  <project path="module"
+           name="module.git" remote="origin" />
 
-  <project path="repo_training/application"
-           name="muserses/application.git" remote="origin" />
+  <project path="application"
+           name="application.git" remote="origin" />
+
+  <project path="tool"
+           name="tool.git" remote="origin" />
+
 </manifest>
